@@ -62,14 +62,13 @@ const Box = styled.p`
   background-color: ${props => props.theme.carouselColor};
 `
 
-const RoadMapItem = ({title, subText}) => {
+const RoadMapItem = () => {
 
   return(
     <Item>
       <ItemContainer>
         <Box>
-          <SubTitle> {title} </SubTitle>
-          <Text> {subtext} </Text>
+          
         </Box>
       </ItemContainer>
     </Item>
